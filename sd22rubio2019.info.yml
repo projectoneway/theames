@@ -1,0 +1,32 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'sd22rubio2019'
+description: 'A Drupal Bootstrap 3 based sub-theme.'
+package: 'Bootstrap'
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  header_member_image: 'Header Member Photo'
+  slide_show: 'Slide Show'
+  content_bottom: 'Content Bottom'
+  before_footer: 'Before footer'
+  content_bottom_social_1: 'Content Bottom Social 1'
+  content_bottom_social_2: 'Content Bottom Social 2'
+  content_bottom_social_3: 'Content Bottom Social 3'
+  
+
+libraries-extend:
+  bootstrap/framework:
+    - sd22rubio2019/framework
